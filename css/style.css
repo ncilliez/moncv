@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ancre{
+    padding-top: 60px;
+}
+
+/*menu*/
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        display: flex;  
+        flex-wrap: wrap; 
+        background-color: rgb(20, 26, 91);
+        text-decoration: none; 
+    }
+    .menu a{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .menu a:hover{
+        background-color: white;
+        color:rgb(20, 26, 91);
+    }
+    .menu li{    
+        flex: 1;
+        text-align: center;
+        list-style: none;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .menu li:nth-child(1){
+        border-left: none;
+    }
+/*menu*/
+
+.entete{
+    background-color: rgb(20, 26, 91);
+}
+.logo{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.logo h1{
+    color: orange;
+}
+.line{
+    border: 1px solid white;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    flex: 1;
+    text-align: center;
+    padding-left: 10px;
+}
+.image img{
+    height: 150px;
+    width: auto;
+    margin:auto;
+    border: 4px solid white;
+}
+.profile{
+    flex: 2;
+    width: 300px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.profile p:nth-child(1){
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
