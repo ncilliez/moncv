@@ -1,0 +1,19 @@
+.foot{
+    height: 100px;
+    background-color: black;
+    .reseaux{
+        display: flex;
+        color: white;
+        justify-content:flex-end;
+        .reseau{
+            padding: 20px;
+            i{
+                font-size: 50px;
+                color: white;
+                &:hover{
+                    color:#6DB5E7;
+                }
+            }      
+        }
+    }
+}
